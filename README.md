@@ -51,7 +51,7 @@ Clone pocket core at same level of pocket-localnet as pocket-core
 4. Copy `mesh_node` folder files to `$HOME/.pocket-mesh` folder
 5. Start docker-compose nodes with: `docker-compose up -d`
 6. Start local node `pocket start --datadir $HOME/.pocket --keybase=false --forceSetValidators --simulateRelays`
-7. Start Mesh node `pocket start-mesh --datadir $HOME/.pocket-mesh --simulateRelays`
+7. Start Mesh node `pocket start-mesh --datadir $HOME/.pocket-mesh --simulateRelay`
 8. Navigate or use curl to know the localnet status: http://localhost:26657/status and check block says 1
 
 Optional:
